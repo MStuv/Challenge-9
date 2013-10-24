@@ -21,6 +21,7 @@
 		C1C1F2921818C4A3004F13F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C1F2741818C4A3004F13F5 /* UIKit.framework */; };
 		C1C1F29A1818C4A3004F13F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1C1F2981818C4A3004F13F5 /* InfoPlist.strings */; };
 		C1C1F29C1818C4A3004F13F5 /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C1F29B1818C4A3004F13F5 /* Passing_Data_Challenge_SolutionTests.m */; };
+		C1C1F2A71818C86B004F13F5 /* MASDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C1F2A61818C86B004F13F5 /* MASDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C1C1F2971818C4A3004F13F5 /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		C1C1F2991818C4A3004F13F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1C1F29B1818C4A3004F13F5 /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		C1C1F2A51818C86B004F13F5 /* MASDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASDetailViewController.h; sourceTree = "<group>"; };
+		C1C1F2A61818C86B004F13F5 /* MASDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				C1C1F27F1818C4A3004F13F5 /* MASAppDelegate.h */,
 				C1C1F2801818C4A3004F13F5 /* MASAppDelegate.m */,
 				C1C1F2821818C4A3004F13F5 /* Main.storyboard */,
+				C1C1F2A51818C86B004F13F5 /* MASDetailViewController.h */,
+				C1C1F2A61818C86B004F13F5 /* MASDetailViewController.m */,
 				C1C1F2851818C4A3004F13F5 /* MASViewController.h */,
 				C1C1F2861818C4A3004F13F5 /* MASViewController.m */,
 				C1C1F2881818C4A3004F13F5 /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				C1C1F2871818C4A3004F13F5 /* MASViewController.m in Sources */,
 				C1C1F2811818C4A3004F13F5 /* MASAppDelegate.m in Sources */,
 				C1C1F27D1818C4A3004F13F5 /* main.m in Sources */,
+				C1C1F2A71818C86B004F13F5 /* MASDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
