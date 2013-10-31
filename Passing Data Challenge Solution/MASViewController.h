@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MASDetailViewController.h"
 
-@interface MASViewController : UIViewController
+
+@interface MASViewController : UIViewController <MASDetailViewControllerDelegate, UITextFieldDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *textField;
 
+
 @end
+ 

@@ -7,11 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MASViewController.h"
 
-@interface MASDetailViewController : UIViewController
 
+@protocol MASDetailViewControllerDelegate <NSObject>
+
+@required
+-(void)didUdateText:(NSString *)text;
+
+@end
+
+@interface MASDetailViewController : UIViewController <UITextFieldDelegate>
+
+/// Protocol/Delegate Properties
+@property (weak, nonatomic) id <MASDetailViewControllerDelegate> delegate;
+
+/// Properties
 @property (strong, nonatomic) IBOutlet UILabel *textLabel;
-@property (strong, nonatomic) MASViewController *textEntered;
+@property (strong, nonatomic) NSString *textEntered;
+@property (strong, nonatomic) IBOutlet UITextField *updateTextField;
+
+/// Buttons
+- (IBAction)updateButtonPressed:(UIButton *)sender;
 
 @end
